@@ -63,6 +63,7 @@ function TabStack() {
     <Tabs.Navigator
       screenOptions={{
         headerShown: false,
+        // This will cause the header to flicker when switching to tabs screen only on the first render
         animation: 'fade',
       }}>
       <Tabs.Screen name="FirstTab" component={FirstTabStack} />
