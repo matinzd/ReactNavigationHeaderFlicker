@@ -1,4 +1,5 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {useHeaderHeight} from '@react-navigation/elements';
 import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import * as React from 'react';
@@ -13,9 +14,12 @@ function HomeScreen() {
 }
 
 function HomeScreen2() {
+  const headerHeight = useHeaderHeight();
+  console.log('headerHeight', headerHeight);
   return (
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <Text>Home Screen 2</Text>
+      <Text>Header Height: {headerHeight}</Text>
     </ScrollView>
   );
 }

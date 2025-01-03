@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2A9F9AF020E691BB5FC3D0E0 /* Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DD47127F52AF270552F40C /* Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8CB7D089665798809F54C550 /* Pods_ReactNavigationHeaderFlicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2ADE897E75FCA080A3F922 /* Pods_ReactNavigationHeaderFlicker.framework */; };
 		CCF9151C994977EE6DD6B438 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		DF48710054DE8DB742D67CE2 /* libPods-ReactNavigationHeaderFlicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BEE1EF790146824B495AC3 /* libPods-ReactNavigationHeaderFlicker.a */; };
+		FB2E380CC7CAC7F3F8D04A80 /* libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E274D81847446994E0D9C9E0 /* libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +38,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNavigationHeaderFlicker/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNavigationHeaderFlicker/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ReactNavigationHeaderFlicker/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		1A2ADE897E75FCA080A3F922 /* Pods_ReactNavigationHeaderFlicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNavigationHeaderFlicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-ReactNavigationHeaderFlicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationHeaderFlicker.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationHeaderFlicker/Pods-ReactNavigationHeaderFlicker.debug.xcconfig"; sourceTree = "<group>"; };
+		55BEE1EF790146824B495AC3 /* libPods-ReactNavigationHeaderFlicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationHeaderFlicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-ReactNavigationHeaderFlicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationHeaderFlicker.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationHeaderFlicker/Pods-ReactNavigationHeaderFlicker.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests/Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNavigationHeaderFlicker/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests/Pods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E274D81847446994E0D9C9E0 /* libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F5DD47127F52AF270552F40C /* Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9F9AF020E691BB5FC3D0E0 /* Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework in Frameworks */,
+				FB2E380CC7CAC7F3F8D04A80 /* libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB7D089665798809F54C550 /* Pods_ReactNavigationHeaderFlicker.framework in Frameworks */,
+				DF48710054DE8DB742D67CE2 /* libPods-ReactNavigationHeaderFlicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1A2ADE897E75FCA080A3F922 /* Pods_ReactNavigationHeaderFlicker.framework */,
-				F5DD47127F52AF270552F40C /* Pods_ReactNavigationHeaderFlicker_ReactNavigationHeaderFlickerTests.framework */,
+				55BEE1EF790146824B495AC3 /* libPods-ReactNavigationHeaderFlicker.a */,
+				E274D81847446994E0D9C9E0 /* libPods-ReactNavigationHeaderFlicker-ReactNavigationHeaderFlickerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
