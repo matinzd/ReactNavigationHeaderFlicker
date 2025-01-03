@@ -68,7 +68,7 @@ function TabStack() {
       screenOptions={{
         headerShown: false,
         // This will cause the header to flicker when switching to tabs screen only on the first render
-        animation: 'fade',
+        // animation: 'fade',
       }}>
       <Tabs.Screen name="FirstTab" component={FirstTabStack} />
       <Tabs.Screen name="SecondTab" component={SecondTabStack} />
@@ -85,8 +85,12 @@ const LoginScreen = () => {
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <Text>Login Screen</Text>
       <Button
-        title="Login"
+        title="Tabs Example"
         onPress={() => reset({index: 0, routes: [{name: 'Tabs'}]})}
+      />
+      <Button
+        title="Stack Example"
+        onPress={() => reset({index: 0, routes: [{name: 'HomeScreen2'}]})}
       />
     </ScrollView>
   );
@@ -95,9 +99,18 @@ const LoginScreen = () => {
 const RootStackScreen = () => {
   return (
     <RootStack.Navigator
-      screenOptions={{headerShown: false, headerTransparent: true}}>
+      screenOptions={{
+        headerShown: false,
+        headerTransparent: true,
+        fullScreenGestureEnabled: true,
+      }}>
       <RootStack.Screen name="Login" component={LoginScreen} />
       <RootStack.Screen name="Tabs" component={TabStack} />
+      <RootStack.Screen
+        options={{headerShown: true}}
+        name="HomeScreen2"
+        component={HomeScreen2}
+      />
     </RootStack.Navigator>
   );
 };
